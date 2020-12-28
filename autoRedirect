@@ -1,0 +1,3 @@
+#Редирект на ту же страницу
+header("Location: http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']); 
+exit;
